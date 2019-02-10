@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux'
+import postReducer from './postReducer'
 
 
 
 export default combineReducers({
-  dingus: () => 19
+  posts: postReducer
 })
